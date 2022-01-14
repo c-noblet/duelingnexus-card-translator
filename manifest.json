@@ -6,10 +6,10 @@
   "homepage_url": "https://github.com/c-noblet/duelingnexus-card-translator",
   "author": "c-noblet",
   "developer": {
-    "name" : "c-noblet",
+    "name": "c-noblet",
     "url": "https://c-noblet.github.io"
   },
-  "version": "1.0",
+  "version": "1.0.1",
   "browser_specific_settings": {
     "gecko": {
       "id": "{617c20c4-5511-41e4-9a85-463b5e0fdfc6}",
@@ -19,12 +19,10 @@
   "icons": {
     "48": "icons/card.png"
   },
-  "content_scripts": [
-    {
-      "matches": ["https://duelingnexus.com/game/*"],
-      "js": ["index.js"]
-    }
-  ],
+  "content_scripts": [{
+    "matches": ["https://duelingnexus.com/game/*"],
+    "js": ["index.js"]
+  }],
   "permissions": [
     "*://yugipedia.com/*",
     "activeTab",
