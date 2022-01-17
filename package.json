@@ -1,0 +1,24 @@
+{
+  "name": "duelingnexus-french-translator",
+  "version": "1.0.1",
+  "description": "Extension web qui traduit les effets des cartes Yu-Gi-Oh lors des duels sur le simulateur Dueling Nexus.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx web-ext build",
+    "sign": "npx web-ext sign --api-key= --api-secret=",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/c-noblet/duelingnexus-french-translator.git"
+  },
+  "author": "c-noblet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/c-noblet/duelingnexus-french-translator/issues"
+  },
+  "homepage": "https://github.com/c-noblet/duelingnexus-french-translator#readme",
+  "dependencies": {
+    "web-ext": "^6.6.0"
+  }
+}
